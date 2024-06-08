@@ -11,6 +11,7 @@ export default function GoogleMapView() {
         height:Dimensions.get('screen').height*0.23,
       }}
       provider={PROVIDER_GOOGLE}
+      showsUserLocation={true}
       ></MapView>
     </View>
   )
