@@ -12,18 +12,15 @@ export default function Header() {
         flexDirection: "row",
         justifyContent: "space-evenly",
         alignItems: "center",
-        gap:10
-      }}>
+        gap:10 
+    }}>
 
-      <Image
-        style={styles.logo}
-        source={require("./../../../assets/logo.png")}/>
+      <Image style={styles.logo} source={require("./../../../assets/logo.png")}/>
 
       <TextInput style={styles.searchBar} placeholder="Search" />
 
-      <Image
-        style={styles.userImage}
-        source={require("./../../../assets/placeholder.jpg")}/>
+      <Image style={styles.userImage} source={require("./../../../assets/placeholder.jpg")}/>
+      
     </View>
   );
 }
