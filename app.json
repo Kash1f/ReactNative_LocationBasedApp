@@ -19,8 +19,8 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff",
         "googleServicesFile": "./google-services.json",
-        "package": "com.kyrexcodes.findplace",
-        "googleMapsApiKey": "AIzaSyDQ2ILDZmdH48UYHiNiZ3MVlDFytbSzvxM"
+        "package": "",
+        "googleMapsApiKey": ""
       }
     },
     "web": {
